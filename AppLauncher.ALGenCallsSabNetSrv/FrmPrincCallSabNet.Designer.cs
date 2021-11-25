@@ -52,7 +52,7 @@ namespace AppLauncher.ALGenCallsSabNetSrv
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(5, 109);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(57, 16);
+            this.label9.Size = new System.Drawing.Size(71, 20);
             this.label9.TabIndex = 32;
             this.label9.Text = "C# Call";
             // 
@@ -64,6 +64,7 @@ namespace AppLauncher.ALGenCallsSabNetSrv
             this.txtCSharpInvok.Location = new System.Drawing.Point(-4, 128);
             this.txtCSharpInvok.Multiline = true;
             this.txtCSharpInvok.Name = "txtCSharpInvok";
+            this.txtCSharpInvok.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.txtCSharpInvok.Size = new System.Drawing.Size(962, 418);
             this.txtCSharpInvok.TabIndex = 31;
             // 
@@ -71,7 +72,7 @@ namespace AppLauncher.ALGenCallsSabNetSrv
             // 
             this.txtDbOwner.Location = new System.Drawing.Point(578, 35);
             this.txtDbOwner.Name = "txtDbOwner";
-            this.txtDbOwner.Size = new System.Drawing.Size(357, 22);
+            this.txtDbOwner.Size = new System.Drawing.Size(357, 26);
             this.txtDbOwner.TabIndex = 30;
             // 
             // label5
@@ -80,7 +81,7 @@ namespace AppLauncher.ALGenCallsSabNetSrv
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(4, 38);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(107, 16);
+            this.label5.Size = new System.Drawing.Size(129, 20);
             this.label5.TabIndex = 23;
             this.label5.Text = "Service name:";
             // 
@@ -90,7 +91,7 @@ namespace AppLauncher.ALGenCallsSabNetSrv
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(464, 38);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(55, 16);
+            this.label6.Size = new System.Drawing.Size(69, 20);
             this.label6.TabIndex = 29;
             this.label6.Text = "Owner:";
             this.label6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -99,14 +100,14 @@ namespace AppLauncher.ALGenCallsSabNetSrv
             // 
             this.txtServName.Location = new System.Drawing.Point(117, 35);
             this.txtServName.Name = "txtServName";
-            this.txtServName.Size = new System.Drawing.Size(333, 22);
+            this.txtServName.Size = new System.Drawing.Size(333, 26);
             this.txtServName.TabIndex = 24;
             // 
             // txtEntityName
             // 
             this.txtEntityName.Location = new System.Drawing.Point(117, 73);
             this.txtEntityName.Name = "txtEntityName";
-            this.txtEntityName.Size = new System.Drawing.Size(333, 22);
+            this.txtEntityName.Size = new System.Drawing.Size(333, 26);
             this.txtEntityName.TabIndex = 28;
             // 
             // label7
@@ -115,7 +116,7 @@ namespace AppLauncher.ALGenCallsSabNetSrv
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(462, 76);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(99, 16);
+            this.label7.Size = new System.Drawing.Size(124, 20);
             this.label7.TabIndex = 25;
             this.label7.Text = "Entity Option:";
             // 
@@ -125,7 +126,7 @@ namespace AppLauncher.ALGenCallsSabNetSrv
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(6, 76);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(95, 16);
+            this.label8.Size = new System.Drawing.Size(117, 20);
             this.label8.TabIndex = 27;
             this.label8.Text = "Entity Name:";
             // 
@@ -133,17 +134,18 @@ namespace AppLauncher.ALGenCallsSabNetSrv
             // 
             this.txtEntityOption.Location = new System.Drawing.Point(578, 73);
             this.txtEntityOption.Name = "txtEntityOption";
-            this.txtEntityOption.Size = new System.Drawing.Size(357, 22);
+            this.txtEntityOption.Size = new System.Drawing.Size(357, 26);
             this.txtEntityOption.TabIndex = 26;
             // 
             // tlStripOptions
             // 
+            this.tlStripOptions.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.tlStripOptions.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.tlStrpSalir,
             this.tlsButExecute});
             this.tlStripOptions.Location = new System.Drawing.Point(0, 0);
             this.tlStripOptions.Name = "tlStripOptions";
-            this.tlStripOptions.Size = new System.Drawing.Size(963, 25);
+            this.tlStripOptions.Size = new System.Drawing.Size(963, 27);
             this.tlStripOptions.TabIndex = 33;
             this.tlStripOptions.Text = "toolStrip1";
             // 
@@ -153,7 +155,7 @@ namespace AppLauncher.ALGenCallsSabNetSrv
             this.tlStrpSalir.Image = ((System.Drawing.Image)(resources.GetObject("tlStrpSalir.Image")));
             this.tlStrpSalir.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tlStrpSalir.Name = "tlStrpSalir";
-            this.tlStrpSalir.Size = new System.Drawing.Size(23, 22);
+            this.tlStrpSalir.Size = new System.Drawing.Size(29, 24);
             this.tlStrpSalir.Text = "toolStripButton1";
             this.tlStrpSalir.ToolTipText = "Salir";
             this.tlStrpSalir.Click += new System.EventHandler(this.tlStrpSalir_Click);
@@ -164,14 +166,14 @@ namespace AppLauncher.ALGenCallsSabNetSrv
             this.tlsButExecute.Image = ((System.Drawing.Image)(resources.GetObject("tlsButExecute.Image")));
             this.tlsButExecute.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.tlsButExecute.Name = "tlsButExecute";
-            this.tlsButExecute.Size = new System.Drawing.Size(23, 22);
+            this.tlsButExecute.Size = new System.Drawing.Size(29, 24);
             this.tlsButExecute.Text = "toolStripButton2";
             this.tlsButExecute.ToolTipText = "Do Process";
             this.tlsButExecute.Click += new System.EventHandler(this.tlsButExecute_Click);
             // 
             // FrmPrincCallSabNet
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(963, 548);
             this.Controls.Add(this.tlStripOptions);
@@ -186,6 +188,7 @@ namespace AppLauncher.ALGenCallsSabNetSrv
             this.Controls.Add(this.label8);
             this.Controls.Add(this.txtEntityOption);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FrmPrincCallSabNet";
             this.Text = "Form1";
